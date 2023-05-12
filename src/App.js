@@ -17,7 +17,7 @@ const dispatch=useDispatch();
 useEffect(()=>{
  dispatch(fetchRepoAction(user));
 dispatch(fetchprofileAction(user));
-},[user])
+},[user,dispatch])
 
 //gettng data from store
 
